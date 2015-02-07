@@ -5,7 +5,7 @@ public class TestArray {
 		int a [] = {1,2,3};
 		int sum = 0;
 		for (int i : a) {
-			sum += i;
+			sum += i * 3;
 		}
 		System.out.println("sum = "+ sum);
 	}
