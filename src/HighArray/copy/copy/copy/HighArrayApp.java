@@ -21,10 +21,13 @@ public class HighArrayApp {
 		
 		a.display();
 		
-		HighArray a1=new HighArray(100);
-		for(int i=0; i<a.getSize(); i++){
-			a1.insert(a[a.getSize()-1-i]);
-		}
+		// a[] is invalid  you need to create a method for HighArray say int get(i) to do that because
+		// HighArray is a class not an array so [] does not work
+		
+		//HighArray a1=new HighArray(100);
+		//for(int i=0; i<a.getSize(); i++){
+		//	a1.insert(a[a.getSize()-1-i]);     //error here
+		//}
 		/*HighArray a1=new HighArray(100);
 		int i=0;
 		while(i<(a.getSize()-1)){
